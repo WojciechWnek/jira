@@ -77,6 +77,7 @@ THIRD_PARTY_APPS = [
     "rest_framework.authtoken",
     "corsheaders",
     "drf_spectacular",
+    "djoser"
 ]
 
 LOCAL_APPS = [
@@ -320,3 +321,5 @@ SPECTACULAR_SETTINGS = {
 }
 # Your stuff...
 # ------------------------------------------------------------------------------
+
+AUTH_USER_MODEL = 'users.UserAccount'
